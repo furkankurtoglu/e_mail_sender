@@ -8,4 +8,4 @@ To use:
     system("python e_mail_sender.py");
 4) Re-compile your executable.
 
-![](main%20file%20image/image_main.jpg)
+![](image/image_main.JPG)
