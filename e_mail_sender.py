@@ -16,7 +16,7 @@ try:
     server.ehlo() # Can be omitted
     server.login(sender_email, password)
     sender_email = "pcnotifier20@gmail.com"
-    receiver_email = "f.kurtoglu9@gmail.com"
+    receiver_email = "ENTER YOUR RECEIVER E-MAIL ADDRESS"
     message = "Subject: Run Completed! \nDear PhysiCell user,\n\nYour simulation has been completed succesfully.\nHave a nice day! \n\n---PhysiCell Notifier---"
     server.sendmail(sender_email, receiver_email, message)
     
